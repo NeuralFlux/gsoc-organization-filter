@@ -1,5 +1,3 @@
-import pandas as pd
-
 def make_table(inp_file):
 	inp = open(inp_file, "r").read().splitlines()
 	curr_line = []
