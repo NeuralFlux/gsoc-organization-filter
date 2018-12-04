@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GSOC Organization Filter</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<center>
+	<h1 style="color: white;">GSOC Organization Filter (Programming Language and Topic)</h1>
+	<input type="text" id="search_gsoc" onkeyup="org_search()" placeholder="Search for Name, Technology or Topic" title="NTT" autofocus="true">
+	<table border="0|0" id="gsoc_table" class="table-borderless gsoc-table">
+	<tr>
+	<th> Name </th>
+	<th> Technologies </th>
+	<th> Topics </th>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5685665089978368> 3DTK</a> </td>
+	<td> c/c++, cmake, opencv, ros, boost  </td>
+	<td> Science and Medicine, 3d, point clouds, slam, robotics, mapping </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5067792839606272> 52° North Initiative for Geospatial Open Source Software GmbH</a> </td>
+	<td> javascript, java, spring, r, big data  </td>
+	<td> Science and Medicine, geoinformatics, geoprocessing, remote sensing, geostatistics, sensor web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5715161717407744> AerospaceResearch.net</a> </td>
+	<td> python, c/c++, vhdl, boinc, java  </td>
+	<td> Science and Medicine, cubesats, space applications, software defined radio, distributed computing, simulations </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5756292874371072> aimacode</a> </td>
+	<td> python, java, javascript, ai, jupyter  </td>
+	<td> Programming Languages and Development Tools, artificial intelligence, machine learning, education </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5083924199899136> Amahi</a> </td>
+	<td> ruby on rails, golang, swift, javascript, android  </td>
+	<td> Operating Systems, media server, storage server, streaming, web apps, front-end </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6209824106741760> AOSSIE - Australian Open Source Software Innovation and Education</a> </td>
+	<td> scala, isabelle proof assistant, browser extension, javascript/html5/css3, android/ios  </td>
+	<td> Web, logic, electronic voting, philosophy, environment, natural language processing </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5175246747336704> Apache Software Foundation</a> </td>
+	<td> c, java, erlang  </td>
+	<td> Other, other, cloud, libraries, big data </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5754587369701376> Apertium</a> </td>
+	<td> c++, python, xml, fsts  </td>
+	<td> Other, machine translation, language technology, grammar, natural language processing </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5706275094528000> Apertus Association</a> </td>
+	<td> fpga, embedded, linux, c/c++, vhdl  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, vision, camera, cinematography, digital imaging, photography </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5125340301099008> appleseedhq</a> </td>
+	<td> c/c++, qt  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, graphics, rendering, physics, mathematics, high performance </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5149138983321600> ArduPilot</a> </td>
+	<td> drones, python, linux, c/c++, robotics  </td>
+	<td> End User Applications, vision, robotics, embedded systems, real-time os, drones </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5713309579870208> BeagleBoard.org Foundation</a> </td>
+	<td> linux, gcc, real-time, physical computing, iot  </td>
+	<td> Programming Languages and Development Tools, robotics, ros, audio, iot, interfaces </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5082029850886144> Beam Community</a> </td>
+	<td> erlang, xmpp  </td>
+	<td> Programming Languages and Development Tools, distributed computing, real time, distributed databases, iot, instant messaging </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5679790782676992> BeeWare Project</a> </td>
+	<td> python, ios, android, javascript, java  </td>
+	<td> Programming Languages and Development Tools, mobile, cross desktop, app development </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5751016104394752> Berkman Klein Center for Internet & Society at Harvard University</a> </td>
+	<td> ruby on rails, meteor.js, elasticsearch, javascript, elk  </td>
+	<td> Other, web, research, education, internet freedom, internet censorship </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6251240207941632> Blender Foundation</a> </td>
+	<td> c, c++, python, opengl, opencl  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, animation, rendering, 3d, games, simulation </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5136992144719872> Boost C++ Libraries</a> </td>
+	<td> c++11, c++14, c++, c++17  </td>
+	<td> Programming Languages and Development Tools, c++ development, c++ tools, c++ standardization, software engineering </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5193342920949760> Boston University / XIA</a> </td>
+	<td> xia, linux kernel, c, advanced data structures, ddos  </td>
+	<td> Cloud, computer networking, future internet architecture, research </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5078956801785856> BRL-CAD</a> </td>
+	<td> c/c++, qt, opengl, opencl, tcl/tk  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, cad, geometry, 3d, graphics user interface, software visualization </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5194176413040640> Canadian Centre for Computational Genomics</a> </td>
+	<td> r, perl, awk, bash, python  </td>
+	<td> Science and Medicine, bioinformatics, data science, next-generation sequencing, visualization, statistics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6262892051562496> Catrobat</a> </td>
+	<td> java, android, ios, espresso  </td>
+	<td> Programming Languages and Development Tools, programming language, app development, education, scratch </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5152211763986432> CCExtractor Development</a> </td>
+	<td> c, python, arduino, node.js, c#  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, media, subtitles, video, accesibility, language </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6272574585569280> Center for Research In Open Source Software (CROSS) at UC Santa Cruz</a> </td>
+	<td> ceph, hadoop, c++, javascript, python  </td>
+	<td> Other, distributed networks, reproducibility, storage systems, big data, opendata </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4841240159846400> CERN-HSF</a> </td>
+	<td> c/c++, python, data analysis, machine learning, parallelization  </td>
+	<td> Science and Medicine, particle physics, high-energy physics, physics, big data, machine learning </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5076776166359040> CGAL Project</a> </td>
+	<td> c++, github, git  </td>
+	<td> Science and Medicine, computational geometry, geometry, mesh processing, arrangement, webhook </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5116840829255680> CHAOSS: Community Health Analytics Open Source Software</a> </td>
+	<td> python 3, javascript  </td>
+	<td> End User Applications, data visualization, visualization, machine learning </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6235541699821568> Checker Framework</a> </td>
+	<td> java  </td>
+	<td> Programming Languages and Development Tools, programmer productivity, software engineering, verification, bug finding </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4828166816268288> CiviCRM LLC</a> </td>
+	<td> php, mysql, angularjs, d3.js  </td>
+	<td> End User Applications, civil society, contacts&calendar sync </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5114353707646976> Classical Language Toolkit</a> </td>
+	<td> python, javascript  </td>
+	<td> Other, natural language processing, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6272891540733952> CLiPS, University of Antwerp</a> </td>
+	<td> python, javascript, mongodb  </td>
+	<td> Data and Databases, natural language processing, machine learning, artificial intelligence, text analysis, text generation </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4800404952973312> Cloud Native Computing Foundation (CNCF)</a> </td>
+	<td> kubernetes, prometheus, grpc, docker, golang  </td>
+	<td> Cloud, cloud, container, monitoring, logging </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5182287540912128> CloudCV</a> </td>
+	<td> machine learning, deep learning, computer vision, artificial intelligence, cloud  </td>
+	<td> Cloud, python, tensorflow, django, angularjs, react </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4906591174262784> coala</a> </td>
+	<td> django, python 3, antlr, emberjs, reactjs  </td>
+	<td> Programming Languages and Development Tools, code analysis, chatops, devops, language server, dependency management </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=University of Nebraska-Lincoln, https://summerofcode.withgoogle.com/archive/2018/organizations/6010802972655616> Computational Biology </a> </td>
+	<td> javascript, webgl, reactjs, flask  </td>
+	<td> Science and Medicine, biological networks, bioinformatics, network simulation, computational biology, omics data </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6032491081105408> Conversations.im</a> </td>
+	<td> java, android, xmpp, gtk, javascript  </td>
+	<td> Social / Communications, instant messaging, mobile, desktop, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4794601982394368> Cuneiform Digital Library Initiative</a> </td>
+	<td> python, mariadb, rdf, php, nltk  </td>
+	<td> Data and Databases, natural language processing, machine translation, information retrieval, linguistics, semantic web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6317537323122688> DBpedia</a> </td>
+	<td> rdf, scala, sparql  </td>
+	<td> Data and Databases, knowledge graph, data extraction, data analytics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6481377977434112> Debian Project</a> </td>
+	<td> javascript, ruby, java, python, c/c++  </td>
+	<td> Operating Systems, operating system, packaging, applications, community, communications </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6208428913459200> Developers Italia</a> </td>
+	<td> python, ruby, node.js, java, c/c++  </td>
+	<td> Other, government, open data, identity, data-science </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6491299083452416> Digital Impact Alliance</a> </td>
+	<td> android, java, php, python, javascript  </td>
+	<td> End User Applications, humanitarian, international, social good, charity, health </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5080222944722944> Django Software Foundation</a> </td>
+	<td> python, django  </td>
+	<td> Web, web development, web, web applications </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5920501889236992> Drupal</a> </td>
+	<td> web, web development, content management system, cms, object-oriented  </td>
+	<td> Web, php, symfony, sql, javascript, drupal 8 </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4862665201549312> Earth Science Information Partners (ESIP)</a> </td>
+	<td> kubernetes, dask, xarray, python, javascript  </td>
+	<td> Data and Databases, earth data, semantics, discovery, data visualization, earth science </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5469541127684096> Elastic</a> </td>
+	<td> java, golang, node.js, react, jruby  </td>
+	<td> Data and Databases, data analytics, data visualization, monitoring, search, logging </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4825444746526720> Eta</a> </td>
+	<td> haskell, jvm, java  </td>
+	<td> Programming Languages and Development Tools, functional-programming, runtime systems, compilers, programming-tools </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5363354906394624> Fedora Project</a> </td>
+	<td> linux, python, git, postgresql, ansible  </td>
+	<td> Operating Systems, linux distribution, desktop, community, web development, server </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5447853019234304> FFmpeg</a> </td>
+	<td> c, asm, git  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, audio, video, multimedia, subtitles </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6489254813237248> FOSSASIA</a> </td>
+	<td> java, javascript, python, android, artificial intelligence  </td>
+	<td> Web, web development, artificial intelligence, personal assistants </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5988565108391936> FOSSology</a> </td>
+	<td> php, postgresql, lamp, linux, c/c++  </td>
+	<td> Other, licensing, open source, license compliance, compliance, spdx </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6276259533291520> Free and Open Source Silicon Foundation</a> </td>
+	<td> fpga, verilog, c, chisel, synthesis  </td>
+	<td> Other, open hardware, debugging, eda tools, web community </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6511795204259840> Free UK Genealogy</a> </td>
+	<td> mongodb, ruby on rails, mysql, python, css/html  </td>
+	<td> Data and Databases, ai, machine learning, ui/ux, web apps, open data </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4807073560788992> FreeBSD</a> </td>
+	<td> c/c++, llvm, shell script, assembly, make  </td>
+	<td> Operating Systems, virtualization, kernel, cloud, embedded systems, security </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6550700024659968> FreeType</a> </td>
+	<td> c, gnu make, gnu autotools, python, fonts  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, fonts, truetype, opentype, graphics, rendering </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5072753191288832> freifunk</a> </td>
+	<td> openwrt, javascript, html, c, python  </td>
+	<td> Social / Communications, network, wireless, web applications, embedded systems, software-defined networking </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5477445075468288> Genes, Genomes and Variation</a> </td>
+	<td> perl, mysql, java script  </td>
+	<td> Science and Medicine, data visualization, genomics, database, bioinformatics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5111873431142400> GENIVI Alliance</a> </td>
+	<td> yocto, c/c++, java  </td>
+	<td> Operating Systems, automotive, diagnostics, functional safety, middleware </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5172443744305152> Gentoo Foundation</a> </td>
+	<td> shell script, bash, c/c++, python, linux  </td>
+	<td> Operating Systems, operating systems, package management, embedded systems, security, init systems </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5472477677355008> GFOSS - Open Technologies Alliance</a> </td>
+	<td> python 3, php/javascript/html, css/html, java, c/c++  </td>
+	<td> Other, python, gtk, java jsp, c++ tools, javascript </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4840889583140864> Git</a> </td>
+	<td> c, shell script, git  </td>
+	<td> Programming Languages and Development Tools, version control, dvcs </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4659817385820160> Global Alliance for Genomics and Health</a> </td>
+	<td> java, python, cloud, c/c++, mongodb  </td>
+	<td> Science and Medicine, genomics, genetics, standards, bioinformatics, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5224661688254464> GNOME</a> </td>
+	<td> c, python, javascript, gtk+, gobject  </td>
+	<td> Operating Systems, desktop, applications, end user applications, operating system </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5951344653369344> GNSS-SDR</a> </td>
+	<td> c/c++, gnss, c++11, c++14  </td>
+	<td> Science and Medicine, gnss, navigation, digital signal processing, software defined radio, communications engineering </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6598377584197632> GNU Compiler Collection (GCC)</a> </td>
+	<td> c++, c, openmp  </td>
+	<td> Programming Languages and Development Tools, compilers </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6026712471044096> GNU Octave</a> </td>
+	<td> c++, hg  </td>
+	<td> Programming Languages and Development Tools, mathematics, numerical computation, matlab, scientific computing, numerical methods </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6595441034526720> GNU Project</a> </td>
+	<td> c, lisp, python  </td>
+	<td> Operating Systems, free software, operating system </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5370023514210304> GNU Radio</a> </td>
+	<td> c++, python, simd, qt  </td>
+	<td> End User Applications, software defined radio, real-time, communications engineering, cybersecurity, dsp </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5406815277809664> Godot Engine</a> </td>
+	<td> c++, cpp, opengl, github, crossplatform  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, game engine, gaming, game development, rendering, virtual reality </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4768790235578368> gRPC</a> </td>
+	<td> grpc, microservices, distributed systems, cloud  </td>
+	<td> Cloud, microservices, communications, distributed networks, infrastructure, middleware </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5826402578333696> Haiku</a> </td>
+	<td> c++, webkit, ffmpeg, posix, bsd unix  </td>
+	<td> Operating Systems, desktop, network, kernel, graphics, media </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5391116769689600> Haskell.org</a> </td>
+	<td> haskell  </td>
+	<td> Programming Languages and Development Tools, functional-programming, programming languages </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4830398454431744> Homebrew</a> </td>
+	<td> ruby, git, macos, rspec, bash  </td>
+	<td> Programming Languages and Development Tools, package managers, macos, terminal applications, github </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6206122851565568> INCF</a> </td>
+	<td> python, c/c++, javascript, cuda, xml  </td>
+	<td> Science and Medicine, neuroscience, big data, brain simulation, brain imaging, visualization </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6198653098131456> Inclusive Design Institute</a> </td>
+	<td> javascript, html, css, node.js, php  </td>
+	<td> End User Applications, accessibility, inclusivity, web, web applications, web development </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6036062346412032> Inkscape</a> </td>
+	<td> svg, css, c++11, python, gtk+  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, graphics, web, geometry </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6603344982310912> Inria Foundation</a> </td>
+	<td> c/c++, qt, webassembly, asm, communication protocol  </td>
+	<td> Science and Medicine, medical simulation, medical research, physics, real-time, scientific computing </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4682207855640576> Institute for Artificial Intelligence</a> </td>
+	<td> c++, python, ros, unreal engine, lisp  </td>
+	<td> Science and Medicine, artificial intelligence, robotics, simulation, unreal engine, perception </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4797072796549120> Intel Media And Audio For Linux</a> </td>
+	<td> video, codecs, hardware acceleration, va-api, c  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, video decode, video encode, video post processing, hardware accelerated media processing, video apis </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5222767339241472> InterMine</a> </td>
+	<td> postgresql, java, javascript, python, clojure  </td>
+	<td> Science and Medicine, biology, genomics, data science, open science, bioinformatics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6298343651147776> Internet Archive</a> </td>
+	<td> pthon, javascript  </td>
+	<td> Web, web extensions, voice apps, web archiving </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4744165577457664> Internet Systems Consortium</a> </td>
+	<td> dhcp, c/c++, mysql, cassandra, rest  </td>
+	<td> Operating Systems, networking, stateful, infrastructure, ipv6 </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5357551935815680> JBoss Community</a> </td>
+	<td> java, android, ios, opentracing, apache kafka  </td>
+	<td> Programming Languages and Development Tools, testing, cloud, mobile development, javaee, microservices </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4773757633691648> JdeRobot - Universidad Rey Juan Carlos</a> </td>
+	<td> ros, python, c++, gazebo, opencv  </td>
+	<td> Other, robotics, computer vision, robot simulator, teaching </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5245157809061888> Jenkins project</a> </td>
+	<td> java, groovy, javascript  </td>
+	<td> Programming Languages and Development Tools, devops, development tools, continuous integration </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5956298361274368> JGraphT</a> </td>
+	<td> java  </td>
+	<td> Programming Languages and Development Tools, graphs, algorithms, data structures, mathematics, network analysis </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6348667246084096> Jitsi</a> </td>
+	<td> java, javascript, webrtc, react, react native  </td>
+	<td> Social / Communications, real time communications, web, video conferencing, networking, multimedia </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6484151049912320> Joomla!</a> </td>
+	<td> php, javascript, mysql, html5/css3, cms  </td>
+	<td> Web, web, web development, web applications, cms, object-oriented </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5947308659179520> JSK Robotics Laboratory / The University of Tokyo</a> </td>
+	<td> ros  </td>
+	<td> Science and Medicine, robotics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6517016676532224> KDE Community</a> </td>
+	<td> qt, c/c++, qml  </td>
+	<td> End User Applications, applications, desktop environment </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4687429327912960> Kiwix</a> </td>
+	<td> android, java, c++, python, qt  </td>
+	<td> End User Applications, offline, android </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6371057715904512> LabLua</a> </td>
+	<td> lua, céu  </td>
+	<td> Programming Languages and Development Tools, programming languages </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4898832450060288> languagetool.org</a> </td>
+	<td> java, javascript, machine learning, ai, tensorflow  </td>
+	<td> End User Applications, artificial intelligence, language, edtech, education, nlp </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6409962536304640> LEAP Encryption Access Project</a> </td>
+	<td> python, twisted, javascript, openvpn, gnupg  </td>
+	<td> End User Applications, e2e, mail, vpn, encryption </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5403839536562176> LibreHealth</a> </td>
+	<td> java, php, javascript, mysql, webcomponents  </td>
+	<td> Science and Medicine, web apps, health, ictd, medicine, global health </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6489903890169856> LibreOffice</a> </td>
+	<td> c++, java, python  </td>
+	<td> End User Applications, end user applications, office suite, desktop application, android </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6037767851081728> libvirt</a> </td>
+	<td> hypervisor, kvm, xen, lxc  </td>
+	<td> Cloud, virtualization, virtual machine, container </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5263452624912384> LLVM Compiler Infrastructure</a> </td>
+	<td> llvm  </td>
+	<td> Programming Languages and Development Tools, compilers, compiler api </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4765853685907456> LuaRocks</a> </td>
+	<td> lua, linux, windows, unix, c  </td>
+	<td> Programming Languages and Development Tools, programming language, package manager </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5785567371460608> MariaDB Foundation</a> </td>
+	<td> mariadb, mysql, c, c++, java  </td>
+	<td> Data and Databases, database, sql </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6529739443404800> Matrix.org</a> </td>
+	<td> golang, ios, android, python, react  </td>
+	<td> Social / Communications, real time communications, team chat, voip, instant messaging, decentralization </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5222617418039296> MetaBrainz Foundation Inc.</a> </td>
+	<td> python, perl, javascript, postgresql, react  </td>
+	<td> Data and Databases, music, metadata, big data, community </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5923381731917824> Metasploit</a> </td>
+	<td> ruby, postgresql, python, c, assembly  </td>
+	<td> Security, security, penetration testing, offensive security, exploitation </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5431834603159552> Mixxx DJ Software</a> </td>
+	<td> qt, audio, music, real-time, c++  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, beatdetection, metadata </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4895891068551168> mlpack</a> </td>
+	<td> c++  </td>
+	<td> Data and Databases, machine learning, deep learning, algorithms, data science </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6557734510002176> Mobile Robot Programming Toolkit (MRPT)</a> </td>
+	<td> c/c++, cmake, python, webs  </td>
+	<td> Science and Medicine, robot, ai, computer vision, real-time, slam </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5904449381859328> Moodle</a> </td>
+	<td> php, javascript, ionic, sql, angular  </td>
+	<td> Social / Communications, education, web applications, e-learning, school system, learning management </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4941292362530816> MovingBlocks</a> </td>
+	<td> java, opengl, json, blender, github  </td>
+	<td> End User Applications, game, voxel, minecraft, sandbox, modding </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6589662424465408> Mozilla</a> </td>
+	<td> javascript, c++, rust, python, css  </td>
+	<td> Web, open web, free software, web, browser </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4728147161382912> MuseScore</a> </td>
+	<td> qt, c++11, cpp, midi  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, music, music notation, user interface, end user applications, sheet music </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5428149655437312> National Resource for Network Biology (NRNB)</a> </td>
+	<td> java, javascript, python, html, c/c++  </td>
+	<td> Science and Medicine, network analysis, biology, data visualization, data modeling, web applications </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5474817897660416> Neovim</a> </td>
+	<td> lua, c, vim, javascript, python  </td>
+	<td> Programming Languages and Development Tools, text editor, vim, cross platform, tools </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6483451842658304> Netfilter project</a> </td>
+	<td> linux kernel, c  </td>
+	<td> Operating Systems, firewall, computer networking </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6485922656813056> NumFOCUS</a> </td>
+	<td> python, julia, r, javascript, c++  </td>
+	<td> Science and Medicine, statistical computing, machine learning, high performance computing, big data, data visualization </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6067192269373440> omegaUp.com</a> </td>
+	<td> php, mysql, python  </td>
+	<td> Web, cs education, education, web community </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5813329234755584> Open Bioinformatics Foundation</a> </td>
+	<td> python, javascript, d, php, c/c++  </td>
+	<td> Science and Medicine, computational biology, bioinformatics, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4981977648201728> Open Chemistry</a> </td>
+	<td> python, c++, javascript, java, opengl  </td>
+	<td> Science and Medicine, science, data science, visualization, chemistry </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6544367028273152> Open Data Kit</a> </td>
+	<td> android, java  </td>
+	<td> End User Applications, mobile, global development, global health, social good </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5395828684357632> Open Food Facts</a> </td>
+	<td> perl, mongodb, ios, android, machine learning  </td>
+	<td> Science and Medicine, computer vision, crowdsourcing, open data, food, health </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5792235979276288> Open Roberta Lab</a> </td>
+	<td> java, javascript  </td>
+	<td> Web, education, programming, robotics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5991416564023296> Open Source Robotics Foundation</a> </td>
+	<td> c/c++, python, javascript, ros, gazebo  </td>
+	<td> Programming Languages and Development Tools, robotics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4806851430449152> Open States</a> </td>
+	<td> python, django, react, graphql, postgresql  </td>
+	<td> Other, civic tech, scraping, web, government </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6600717804503040> OpenAstronomy</a> </td>
+	<td> python, julia, c++, numba  </td>
+	<td> Science and Medicine, visualization, astronomy, solar physics, orbital mechanics, high-energy astrophysics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5351751314046976> OpenCensus</a> </td>
+	<td> python, java, ruby, node, go  </td>
+	<td> Cloud, tracing, monitoring, c++, php </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4753034282270720> OpenMRS</a> </td>
+	<td> java, spring, javascript, rest, mysql  </td>
+	<td> Science and Medicine, open source, medical records, developing countries </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4660316541550592> OpenSIPS</a> </td>
+	<td> c, python, mysql, scripting  </td>
+	<td> Social / Communications, voip, telephony, real-time-communications, sip </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5878934189113344> OpenStreetMap</a> </td>
+	<td> postgis, java, ruby, javascript, c/c++  </td>
+	<td> Data and Databases, gis, maps, crowdsourcing, geoinformatics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5250379281334272> openSUSE</a> </td>
+	<td> ruby on rail, perl, ruby, html/javascript, c/c++  </td>
+	<td> Operating Systems, web, qa, packaging, ui/ux </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4717005412237312> OpenWISP</a> </td>
+	<td> python, django, javascript, openwrt, linux  </td>
+	<td> Web, wifi, mesh-networks, wireless, networking, web development </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5214740582236160> OpnTec</a> </td>
+	<td> python, javascript, emberjs, cloud, android  </td>
+	<td> Social / Communications, open event, event solutions, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4714779679653888> Oppia Foundation</a> </td>
+	<td> angularjs, python, javascript, appengine, css  </td>
+	<td> Web, education, web, interactive, tools, community </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4890968767594496> OSGeo</a> </td>
+	<td> c/c++, standards, python, sql, database  </td>
+	<td> Other, mapping, gis, geospatial, citizen science, open science </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6376279188176896> OW2</a> </td>
+	<td> java, perl, middleware, bpm, wiki  </td>
+	<td> Other, enterprise information systems, cloud, security, middleware </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6340640489078784> OWASP Foundation</a> </td>
+	<td> java, net, ruby, javascript, python  </td>
+	<td> Security, application security, cloud security, mobile security </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4692141242580992> P2PSP.org</a> </td>
+	<td> python, javascript, webrtc, sockets, c/c++  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, live streaming, real time, distributed networks, p2p, video </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5315984235692032> PEcAn Project</a> </td>
+	<td> javascript, postgresql, php, c, r  </td>
+	<td> Science and Medicine, scientific visualization, data science, climate science, ecosystem models, ecological forecasting </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4726475278254080> Performance Co-Pilot</a> </td>
+	<td> python, redis, c, linux, javascript  </td>
+	<td> Operating Systems, high performance computing, visualization, web development, kernel, performance </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5208530327961600> phpBB Forum Software</a> </td>
+	<td> mysql, javascript, html5/css3, php, symfony  </td>
+	<td> Social / Communications, social, communication, collaboration, forum, community </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5779764400881664> phpMyAdmin</a> </td>
+	<td> php, mysql, cakephp, jquery, javascript  </td>
+	<td> Data and Databases, mysql, developer, administrator, web applications, database </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5782644243562496> Plone</a> </td>
+	<td> python, javascript, html, css, reactjs  </td>
+	<td> Web, communications, collaboration, content management, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5852375185096704> PMD</a> </td>
+	<td> java, xml, javacc, antlr, xpath  </td>
+	<td> Programming Languages and Development Tools, code analysis, code quality, source code analyzer, linter </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6441884142534656> Pocket Science Lab</a> </td>
+	<td> android, java, firmware, c, cad  </td>
+	<td> Science and Medicine, science, education, firmware, school apps </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4933265605525504> Polly Labs</a> </td>
+	<td> c/c++, llvm, polly, isl, ppcg  </td>
+	<td> Programming Languages and Development Tools, compilers, polyhedral model </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5341499428438016> PostgreSQL</a> </td>
+	<td> postgresql, sql, rdbms, ordbms, c  </td>
+	<td> Data and Databases, sql, database, big data </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5818041149423616> Probot</a> </td>
+	<td> javascript, node, github  </td>
+	<td> Programming Languages and Development Tools, bot, automation, development tools </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4963682832351232> Public Lab</a> </td>
+	<td> ruby on rails, javascript, node.js  </td>
+	<td> Science and Medicine, science, environment, collaboration, community, hardware </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5216814447460352> Purr Data</a> </td>
+	<td> javascript, html5/css3, node.js, c/c++  </td>
+	<td> Programming Languages and Development Tools, real-time, audio, dsp, video, data vizualisation </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5331740188999680> Python HYDRA</a> </td>
+	<td> python, rdf, flask, hydra, json/json-ld  </td>
+	<td> Web, apis, database, functional-programming, semantic web, knowledge graph </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6342714354302976> Python Software Foundation</a> </td>
+	<td> python  </td>
+	<td> Science and Medicine, programming languages, science </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4650540726222848> QEMU</a> </td>
+	<td> c, kvm  </td>
+	<td> Cloud, emulation, hypervisor, kernel, lowlevel, cloud </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4724462213660672> Quill.org</a> </td>
+	<td> ruby, rails, react, javascript, postgresql  </td>
+	<td> Web, education, edtech, machine learning, nlp, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6343413561556992> R project for statistical computing</a> </td>
+	<td> r-project, c, c++, javascript, fortran  </td>
+	<td> Programming Languages and Development Tools, data science, visualization, statistics, graphics, machine learning </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5393348407853056> radare</a> </td>
+	<td> c, cpp, rust, qt  </td>
+	<td> Security, reverse engineering </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6454703546171392> ReactOS</a> </td>
+	<td> c, c++  </td>
+	<td> Operating Systems, operating systems, drivers, desktop, kernel, windows </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5430613960032256> Read the Docs</a> </td>
+	<td> python, sphinx, django, javascript, elasticsearch  </td>
+	<td> Programming Languages and Development Tools, docs, web, communications </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6069086618386432> Red Hen Lab</a> </td>
+	<td> python, scikit-learn, tensorflow, singularity, syntaxnet  </td>
+	<td> Science and Medicine, multimedia, audio processing, video processing, artificial intelligence, machine learning </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5504242315952128> RoboComp</a> </td>
+	<td> c/c++, python, cmake, openscenegraph, ice - zeroc  </td>
+	<td> Other, robotics, computer vision, simulation </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5641906755207168> Rocket.Chat</a> </td>
+	<td> javascript, ios, android, node, meteor.js  </td>
+	<td> Social / Communications, chat, collaboration, machine learning, chatops, bot </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5729327995944960> Rspamd</a> </td>
+	<td> c, machine learning, javascript, lua  </td>
+	<td> Security, email, spam filtering, high performance computing </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5646874153320448> RTEMS Project</a> </td>
+	<td> c, python, posix, bsd unix  </td>
+	<td> Operating Systems, kernel, embedded systems, multicore, iot, real time </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5758920052178944> Ruby</a> </td>
+	<td> ruby  </td>
+	<td> Programming Languages and Development Tools, programming languages </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5717023518621696> Ruby on Rails</a> </td>
+	<td> ruby, ruby on rails, html  </td>
+	<td> Web, web, web development, web applications </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5688290254520320> Ruby Science Foundation</a> </td>
+	<td> ruby, c, c++, cuda  </td>
+	<td> Science and Medicine, visualization, compilers, parallel algorithms, data science, artificial intelligence </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5677303661068288> Sage Mathematical Software System</a> </td>
+	<td> python 3, python, cython, c/c++  </td>
+	<td> Science and Medicine, mathematics, toolbox </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5122715136557056> Scala</a> </td>
+	<td> scala, jvm, llvm  </td>
+	<td> Programming Languages and Development Tools, compilers, programming-tools, functional-programming, programming-language </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4786317862895616> Scilab</a> </td>
+	<td> c, c++, java, scilab  </td>
+	<td> End User Applications, science, mathematics, numerical computation, graphics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5712088936742912> ScummVM</a> </td>
+	<td> c++, opengl, sdl, assembly  </td>
+	<td> End User Applications, games, game engines, software preservation </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5132636779446272> Seastar</a> </td>
+	<td> cpp, framework, dpdk, tcp, linux  </td>
+	<td> Programming Languages and Development Tools, high performance, tcp, app development, network, framework </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5139217877303296> Software and Computational Systems Lab at LMU Munich</a> </td>
+	<td> java, python, javascript  </td>
+	<td> Programming Languages and Development Tools, software analysis, software verification, benchmarking, smt solver </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=Virginia Tech, https://summerofcode.withgoogle.com/archive/2018/organizations/5667370274127872> Space </a> </td>
+	<td> python, javascript, d3, mysql, mongodb  </td>
+	<td> Science and Medicine, real time, web, data visualization, data analytics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5081879929683968> SPDX</a> </td>
+	<td> rdf, python, java, json  </td>
+	<td> Programming Languages and Development Tools, compliance, open source, licensing </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6199903000723456> Stemformatics</a> </td>
+	<td> python, javascript, postgresql  </td>
+	<td> Science and Medicine, web applications, cloud, bioinformatics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6248264466694144> STE||AR Group</a> </td>
+	<td> c++, cuda, opencv, python, boost  </td>
+	<td> Programming Languages and Development Tools, hpc, parallel algorithms, runtime systems, distributed datastructures, asynchronous many task systems </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6275038890164224> Stony Brook University Biomedical Informatics</a> </td>
+	<td> python, matlab, c++, javascript  </td>
+	<td> Science and Medicine, biomedical data science, cancer informatics, deep learning, medical imaging </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6045186870214656> strace</a> </td>
+	<td> linux, c, git, shell script, make  </td>
+	<td> Operating Systems, diagnostic, debugging, tracing </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5918428024012800> Streetmix</a> </td>
+	<td> javascript, react, redux, postgresql, mongodb  </td>
+	<td> End User Applications, smart cities, web, civic tech </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5076076959105024> Submitty</a> </td>
+	<td> python, c++, databases, web/html/css, php/javascript/ajax  </td>
+	<td> Other, education, privacy/security, data visualization, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5753952654065664> Sugar Labs</a> </td>
+	<td> python, javascript, gtk+  </td>
+	<td> Other, education, games, user interface, media, stem </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5745237494333440> Sustainable Computing Research Group (SCoRe)</a> </td>
+	<td> android, java, go, node, pyth  </td>
+	<td> Web, iot, web, mobile, machine learning, security </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5146674678726656> Swift</a> </td>
+	<td> c++, llvm, cmake, swift  </td>
+	<td> Programming Languages and Development Tools, compilers, programming languages </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5672591746400256> SymPy</a> </td>
+	<td> python  </td>
+	<td> Science and Medicine, mathematics, computer algebra </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6321870005600256> Systers Community</a> </td>
+	<td> ios, android, python, ruby on rails, javascript  </td>
+	<td> Other, mobile applications, web apps, community </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=National University of Singapore, https://summerofcode.withgoogle.com/archive/2018/organizations/6265117784145920> TEAMMATES </a> </td>
+	<td> java, appengine, javascript  </td>
+	<td> Web, education, teaching, cloud, web applications </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5109641792978944> The Center for Connected Learning and Computer-Based Modeling</a> </td>
+	<td> javascript, scala, html5/css3  </td>
+	<td> Programming Languages and Development Tools, simulation, education, programming language, science, academic research </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5743257380192256> The Eclipse Foundation</a> </td>
+	<td> php, java, xtext, javascript, c/c++  </td>
+	<td> Other, research, industry, internet of things, runtime systems </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5912217769738240> The Honeynet Project</a> </td>
+	<td> python 3, python, golang, c/c++, machine learning  </td>
+	<td> Security, honeypots, malware, sandbox, deception, networking </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6274587650162688> The Java Pathfinder Team</a> </td>
+	<td> java, jvm, android, distributed systems  </td>
+	<td> Programming Languages and Development Tools, program analysis, model checking, symbolic execution, test input generation, formal methods </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5106919723237376> The Libreswan Project</a> </td>
+	<td> c, python, shell script, qemu  </td>
+	<td> Security, ipsec vpn </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5146991633891328> The Linux Foundation</a> </td>
+	<td> c, c++, cups, ipp  </td>
+	<td> Operating Systems, kernel, printing, wireless, lsb, spdx </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4867664006610944> The MacPorts Project</a> </td>
+	<td> tcl, html/javascript, frontend, vue.js, react.js  </td>
+	<td> End User Applications, package manager, mac os x, macos, command line, build tools </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5355478070591488> The Mifos Initiative</a> </td>
+	<td> java, android, spring, angularjs, mysql  </td>
+	<td> End User Applications, fintech, financial inclusion, mobile banking, digital financial services, microfinance </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5928349130031104> The NetBSD Foundation</a> </td>
+	<td> c, bsd make  </td>
+	<td> Operating Systems, kernel, userland, unix, packaging, bsd </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6608136823635968> The ns-3 Network Simulator Project</a> </td>
+	<td> c/c++, python  </td>
+	<td> Other, networking, research and development, network simulation </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5665833682468864> The Processing Foundation</a> </td>
+	<td> java, javascript, python, android, opengl  </td>
+	<td> Programming Languages and Development Tools, creative coding, graphics, design, education, web </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6475167723159552> The Qt Project</a> </td>
+	<td> c++11, cpp, qt, qml, opengl  </td>
+	<td> Programming Languages and Development Tools, graphics, gis, maps, declarative language </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5651276360581120> The syslog-ng project.</a> </td>
+	<td> java, c/c++, big data, elasticsearch, rest  </td>
+	<td> Security, logging, log management, message queue, python </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4645580374540288> The Vega Visualization Tools by the UW Interactive Data Lab</a> </td>
+	<td> javascript, typescript, react, d3.js  </td>
+	<td> Data and Databases, data visualization, visualization grammar, data science, declarative language, plotting tools </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6258536686288896> The Wine Project</a> </td>
+	<td> directx, x11, win32, opengl, c  </td>
+	<td> Other, compatibility, desktop integration, 3d, directx, opengl </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5082529006616576> TimVideos.us</a> </td>
+	<td> fpga, verilog, python, c  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, hardware </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6308187447754752> TLA+</a> </td>
+	<td> java, tla+, eclipse, ocaml, smt  </td>
+	<td> Programming Languages and Development Tools, formal methods, algorithms </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5088326407159808> UCSC Xena</a> </td>
+	<td> javascript, python, clojure, react, jvm  </td>
+	<td> Science and Medicine, bioinformatics, data visualization, web applications, cancer, genomics </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4795301189648384> VideoLAN</a> </td>
+	<td> c, c++, go, vue.js  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, multimedia, audio, video, 3d, vr </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5088548537499648> ViSP</a> </td>
+	<td> c/c++  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, robotics, computer vision </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4801054029905920> vitrivr</a> </td>
+	<td> java, angularjs, spark, grpc  </td>
+	<td> Data and Databases, retrieval, multimedia, video, audio, 3d </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4872598588489728> webpack</a> </td>
+	<td> javascript, web development, html5/css3, node.js, webassembly  </td>
+	<td> Programming Languages and Development Tools, tooling, toolchains, compilers, parser, web performance </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6035427630776320> Wikimedia Foundation</a> </td>
+	<td> php, javascript, ruby on rails, android, reactjs  </td>
+	<td> Web, wikipedia, wikimedia, mediawiki, web, education </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4651790628814848> WorldBrain.io - Verifying the Internet</a> </td>
+	<td> react, javascript, browser extension, datproject  </td>
+	<td> End User Applications, search, fake-news, decentralization, misinformation, bookmarking </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4893771770626048> X.org Foundation</a> </td>
+	<td> opengl, vulkan, x11, wayland, opencl  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, graphic stack, 3d acceleration, 2d acceleration, media acceleration, windowing system </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5404190113267712> Xapian Search Engine Library</a> </td>
+	<td> c++, unicode, swig, linux, golang  </td>
+	<td> Data and Databases, search, information retrieval, machine learning, linguistics, indexing </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5991099608858624> XBMC Foundation</a> </td>
+	<td> python, c/c++, github, mysql  </td>
+	<td> Graphics / Video / Audio / Virtual Reality, home theater, audio, video </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6530090020110336> Xi Editor Project</a> </td>
+	<td> rust, swift  </td>
+	<td> End User Applications, text editing, ide </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/5969765231230976> xpra.org</a> </td>
+	<td> python, javascript, compression, remote access, cython  </td>
+	<td> End User Applications, graphics, remote access </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/6278111670829056> XWiki</a> </td>
+	<td> java, javascript, html5, css3, velocity  </td>
+	<td> Web, web development, wiki, platform, web applications, structured data </td>
+	</tr>
+	<tr>
+	<td> <a target='_blank' href=https://summerofcode.withgoogle.com/archive/2018/organizations/4721112676040704> Zulip</a> </td>
+	<td> python, django, javascript, react native, electron  </td>
+	<td> Social / Communications, web development, team chat, mobile applications, visual design </td>
+	</tr>
+	</table>
+	</center>
+	<script type="text/javascript">
+		function org_search() {
+			var input, filter, table, tr, td, i, txtValue;
+			input = document.getElementById("search_gsoc");
+			filter = input.value.toUpperCase();
+			table = document.getElementById("gsoc_table");
+			tr = table.getElementsByTagName("tr");
+			for (i = 0; i < tr.length; i++) {
+				var a = [false, false, false];
+				for(var j = 0; j < tr[i].getElementsByTagName("td").length; j++) {
+					td = tr[i].getElementsByTagName("td")[j];
+					if (td) {
+						txtValue = td.textContent || td.innerText;
+						if (txtValue.toUpperCase().indexOf(filter) > -1) {
+						a[j] = true;
+						}
+					}
+				}
+				if (a[0] == true || a[1] == true || a[2] == true) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+	<div class="footer">
+		<center>
+			Made by <a href="https://NeuralFlux.github.io"> NeuralFlux </a>
+		</center>
+	</div>
+</body>
+</html>
