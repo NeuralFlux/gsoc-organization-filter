@@ -20,8 +20,7 @@ Use the search bar to search for the organization, technology or topic, all in o
 
 ### III. How to run
 1. Download both the python scripts and HTML if necessary.
-2. First run the ..py and convert it into HTML by using neat.py
-3. The format of output given by ..py and the input accepted by neat.py is given as examples.
+2. Run the `gsoc_filter_by_languages_or_topics.py` and it will produce an HTML output.
 
 ### IV. To-Do
 - [ ] Escape , (commas) in organization names
