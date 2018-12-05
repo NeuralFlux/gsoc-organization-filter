@@ -1,4 +1,4 @@
-# GSOC Organization Filter (2018)
+# GSoC Organization Filter (2018)
 Idea credit - [Rohith ASRK](https://github.com/rohithasrk/GSoC-Organisation-Scraper)
 
 This is a simple web scraping Python script (package used - BeautifulSoup) made to make your GSOC recon easier, as going through every organization and checking the programming languages/technologies involved is a bit of a tiring task.
@@ -25,3 +25,4 @@ Use the search bar to search for the organization, technology or topic, all in o
 
 ### IV. To-Do
 - [ ] Escape , (commas) in organization names
+- [ ] Enumerate number of years participated for each Organization
